@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme
 title: IF867 Projetos
 description: Projetos da disciplina de Introdução à Aprendizagem Profunda
+show_downloads: false
