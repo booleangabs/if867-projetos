@@ -1,1 +1,99 @@
+@font-face {
+    font-family: berlin;
+    src: url(../assets/fonts/Berlin.ttf);
+    font-weight: normal;
+}
 
+@font-face {
+    font-family: berlin;
+    src: url(../assets/fonts/Berlin_Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: berlin;
+    src: url(../assets/fonts/Berlin_Italic.ttf);
+    font-style: italic;
+}
+
+* {
+    font-family: berlin;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DB1F2F;
+}
+
+img {
+    display: block;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.homemain {
+    background: rgb(252,252,252);
+    background: linear-gradient(180deg, #FCFCFC, 80%, #C8C2C1, 100%);
+    width: 94%;
+    top: 20vw;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    color: #0B0C10;
+    margin-left: 3vw;
+}
+
+.homemain h1 {
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+.homemain h2 {
+    margin-bottom: 2vh;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 0vw 0vw 10vw 0vw;
+    position: relative;
+}
+
+#dropbutton {
+    padding: 1vw;
+    font-size: large;
+    font-weight: bold;
+    background-color: #262627;
+    color: #FCFCFC;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #FCFCFC;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 1vw;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    display: block;
+    background-color: #DB1F2F;
+    color: #FCFCFC;
+    padding: 1vw;
+    text-decoration: none;
+}
