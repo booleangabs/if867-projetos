@@ -9,4 +9,5 @@ Centro de Informática - Universidade Federal de Pernambuco
 * Utilizando o template de card presente em "years/year_template/card_template.html",
   crie um card para o seu projeto na área indicada pelos comentários no arquivo html
   do período atual
+* Atualize seu fork com as mudanças
 * Abra um pull request para mergear sua contribução
